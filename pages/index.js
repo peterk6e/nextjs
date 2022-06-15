@@ -9,7 +9,6 @@ export default function Home() {
     <Head>
       <title>Next app</title>
     </Head>
-      <NavBar />
       <div className={styles.hpTitle}>Next App</div>
     </div>
   );
