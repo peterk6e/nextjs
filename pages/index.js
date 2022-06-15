@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import NavBar from "../components/NavBar.jsx";
 
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
     <Head>
       <title>Next app</title>
     </Head>
-      <Link href="/about">About</Link>
+      <NavBar />
+      <div className={styles.hpTitle}>Next App</div>
     </div>
   );
 }
